@@ -1,4 +1,4 @@
-import initAnimaNumeros from './anima-numeros.js';
+import initAnimaNumeros from '../js/modules/anima-numeros.js';
 
 export default function initFetchAnimais() {
   async function fetchAnimais(url) {
@@ -24,5 +24,5 @@ export default function initFetchAnimais() {
     return div;
   }
   
-  fetchAnimais('./animaisapi.json');
+  fetchAnimais('../animaisapi.json');
 }
