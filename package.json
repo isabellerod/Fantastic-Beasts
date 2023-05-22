@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production --entry ./js/script.js -o ./main.js",
-    "dev": "webpack --mode development --watch --entry ./js/script.js -o ./main.js"
+    "build": "webpack --mode production --entry ./js/script.js -o ./",
+    "dev": "webpack --mode development --watch --entry ./js/script.js -o ./"
   },
   "license": "ISC",
   "devDependencies": {
