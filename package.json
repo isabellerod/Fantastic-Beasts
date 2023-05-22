@@ -6,7 +6,6 @@
     "build": "webpack --mode production --entry ./js/script.js -o ./js/main.js",
     "dev": "webpack --mode development --watch --entry ./js/script.js -o ./js/main.js"
   },
-  "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
