@@ -3,7 +3,7 @@ export default class Funcionamento {
     this.funcionamento = document.querySelector(funcionamento);
     this.activeClass = activeClass;
   }
-  
+
   dadosFuncionamento() {
     this.diasSemana = this.funcionamento.dataset.semana.split(',').map(Number);
     this.horarioSemana = this.funcionamento.dataset.horario.split(',').map(Number);
@@ -24,7 +24,7 @@ export default class Funcionamento {
 
   ativaAberto() {
     if (this.aberto()) {
-      funcionamento.classList.add(this.activeClass);
+      this.funcionamento.classList.add(this.activeClass);
     }
   }
 
