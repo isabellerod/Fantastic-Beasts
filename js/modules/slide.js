@@ -68,8 +68,6 @@ export class Slide {
     this.wrapper.addEventListener('touchend', this.onEnd);
   }
 
-  // Slides config
-
   slidePosition(slide) {
     const margin = (this.wrapper.offsetWidth - slide.offsetWidth) / 2;
     return -(slide.offsetLeft - margin);
@@ -101,7 +99,7 @@ export class Slide {
   }
 
   changeActiveClass() {
-    this.slideArray.forEach(item => item.element.classList.remove(this.activeClass));
+    this.slideArray.forEach((item) => item.element.classList.remove(this.activeClass));
     this.slideArray[this.index.active].element.classList.add(this.activeClass);
   }
 
@@ -182,7 +180,7 @@ export default class SlideNav extends Slide {
   }
 
   activeControlItem() {
-    this.controlArray.forEach(item => item.classList.remove(this.activeClass));
+    this.controlArray.forEach((item) => item.classList.remove(this.activeClass));
     this.controlArray[this.index.active].classList.add(this.activeClass);
   }
 
