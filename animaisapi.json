@@ -1,18 +1,18 @@
 [
   {
-    "specie": "Wolves",
+    "specie": "Lobos",
     "total": 4874
   },
   {
-    "specie": "Foxes",
+    "specie": "Raposas",
     "total": 5374
   },
   {
-    "specie": "Squirrels",
+    "specie": "Esquilos",
     "total": 12340
   },
   {
-    "specie": "Bears",
+    "specie": "Ursos",
     "total": 230
   }
 ]
